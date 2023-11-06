@@ -1,0 +1,11 @@
+try{
+    res=10/0;
+    console.log(res)
+}
+catch(err){
+    console.log("error");
+    console.log(err.message)
+}
+finally{
+    console.log("executed")
+}
